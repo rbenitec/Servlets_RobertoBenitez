@@ -30,7 +30,8 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.getWriter().append("Hola Mundo.. Soy roberto! ")
-							.append(request.getContextPath());
+							.append(request.getContextPath())
+							.append("Segundo Commint");
 	}
 
 	
