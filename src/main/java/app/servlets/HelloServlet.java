@@ -31,6 +31,7 @@ public class HelloServlet extends HttpServlet {
 		
 		response.getWriter().append("Hola Mundo.. Soy roberto! ")
 							.append(request.getContextPath())
+							.append("Hola Mundo.. Soy roberto! ")
 							.append("Segundo Commint");
 	}
 
