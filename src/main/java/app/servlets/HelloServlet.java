@@ -28,11 +28,19 @@ public class HelloServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		/*
 		response.getWriter().append("Hola Mundo.. Soy roberto! ")
 							.append(request.getContextPath())
 							.append("Hola Mundo.. Soy roberto! ")
 							.append("Segundo Commint");
+		
+		*/
+		
+		response.getWriter().append("<html>")
+							.append("<h2>Hola mundo</h2>")
+							.append("<p>Este es mi primer servlet</p>")
+							.append("</html>");
+		
 	}
 
 	
